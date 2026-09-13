@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 213 100% 3%;
+    --foreground: 154 53% 97%;
+    --card: 213 100% 3%;
+    --card-foreground: 154 53% 97%;
+    --popover: 213 100% 3%;
+    --popover-foreground: 154 53% 97%;
+    --primary: 208 100% 74%;
+    --primary-foreground: 213 100% 3%;
+    --secondary: 201 44% 33%;
+    --secondary-foreground: 154 53% 97%;
+    --muted: 213 100% 10%;
+    --muted-foreground: 0 0% 63%;
+    --accent: 208 100% 74%;
+    --accent-foreground: 213 100% 3%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 208 100% 74%;
+    --radius: 0.5rem;
+  }
+}
+
+:root {
+  --secondary: #2F5F7A;
+  --tertiary: #B8A8FF;
+  --black: #01080F;
+  --gray-1: #5B5B5B;
+  --gray-2: #A0A0A0;
+  --gray-3: #DBDBDB;
+  --white: #F2FDF8;
+  
+  --accent: #7BC1FF;
+  --text-main: #F2FDF8;
+  --text-dim: #A0A0A0;
+  --bg: #01080F;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-main);
+  font-family: var(--font-poppins), 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-tajawal), 'Tajawal', sans-serif;
+}
+
+
+
+/* Nav link hover — subtle glass highlight */
+.nav-link {
+  position: relative;
+  padding: 0.5rem 0.875rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-dim);
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--white);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.nav-link.active {
+  color: var(--primary);
+}
+
+/* Hero Cybernetic Grid Animations */
+@keyframes gridScroll {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 60px; }
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(1000%); }
+}
+
+@keyframes spinSlow {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+.animate-grid-scroll {
+  animation: gridScroll 2s linear infinite;
+}
+
+.animate-grid-scroll-reverse {
+  animation: gridScroll 2s linear infinite reverse;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 30s linear infinite;
+}
+
+.animate-scanline {
+  animation: scanline 8s linear infinite;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
