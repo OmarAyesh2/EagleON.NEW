@@ -115,16 +115,16 @@ export default function PortfolioPage() {
                         {featuredProject.description[lang]}
                       </p>
                     )}
-                    {featuredProject.technologies && (
+                    {featuredProject.tags && (
                       <div className="flex flex-wrap gap-2 mt-3">
-                        {featuredProject.technologies.slice(0, 4).map((tech: string, i: number) => (
+                        {featuredProject.tags.slice(0, 4).map((tech: string, i: number) => (
                           <span key={i} className="bg-white/10 backdrop-blur-md text-white/90 text-[11px] px-2.5 py-1 rtl:pt-1.5 rtl:pb-0.5 rounded">
                             {tech}
                           </span>
                         ))}
-                        {featuredProject.technologies.length > 4 && (
+                        {featuredProject.tags.length > 4 && (
                           <span className="bg-white/10 backdrop-blur-md text-white/90 text-[11px] px-2.5 py-1 rtl:pt-1.5 rtl:pb-0.5 rounded">
-                            +{featuredProject.technologies.length - 4}
+                            +{featuredProject.tags.length - 4}
                           </span>
                         )}
                       </div>
@@ -167,16 +167,16 @@ export default function PortfolioPage() {
                           <h3 className="text-white font-bold text-xl md:text-2xl group-hover:text-brand-primary transition-colors mt-2">
                             {project.title[lang]}
                           </h3>
-                          {project.technologies && (
+                          {project.tags && (
                             <div className="flex flex-wrap gap-2 mt-2">
-                              {project.technologies.slice(0, 3).map((tech: string, i: number) => (
+                              {project.tags.slice(0, 3).map((tech: string, i: number) => (
                                 <span key={i} className="bg-white/10 backdrop-blur-md text-white/90 text-[11px] px-2.5 py-1 rtl:pt-1.5 rtl:pb-0.5 rounded">
                                   {tech}
                                 </span>
                               ))}
-                              {project.technologies.length > 3 && (
+                              {project.tags.length > 3 && (
                                 <span className="bg-white/10 backdrop-blur-md text-white/90 text-[11px] px-2.5 py-1 rtl:pt-1.5 rtl:pb-0.5 rounded">
-                                  +{project.technologies.length - 3}
+                                  +{project.tags.length - 3}
                                 </span>
                               )}
                             </div>

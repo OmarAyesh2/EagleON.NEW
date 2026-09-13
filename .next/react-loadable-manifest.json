@@ -1,0 +1,38 @@
+{
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 5139,
+    "files": [
+      "static/chunks/139.7a5a8e93a21948c1.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 1646,
+    "files": [
+      "static/chunks/646.f342b7cffc01feb0.js"
+    ]
+  },
+  "app\\portfolio\\[slug]\\page.tsx -> @/components/sections/CTABand": {
+    "id": 2551,
+    "files": [
+      "static/chunks/551.5da92c4860c78895.js"
+    ]
+  },
+  "app\\portfolio\\[slug]\\page.tsx -> @/components/ui/lightbox": {
+    "id": 4460,
+    "files": [
+      "static/chunks/460.460bdc6339e73d4f.js"
+    ]
+  },
+  "app\\portfolio\\page.tsx -> @/components/sections/CTABand": {
+    "id": 2551,
+    "files": [
+      "static/chunks/551.5da92c4860c78895.js"
+    ]
+  },
+  "app\\services\\page.tsx -> @/components/sections/CTABand": {
+    "id": 2551,
+    "files": [
+      "static/chunks/551.5da92c4860c78895.js"
+    ]
+  }
+}
