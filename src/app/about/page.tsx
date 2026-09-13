@@ -14,22 +14,22 @@ export default function AboutPage() {
       {/* SECTION 1: CINEMATIC HERO */}
       <section className="relative min-h-[90vh] flex flex-col justify-center px-4 md:px-8 max-w-7xl mx-auto">
         <div className="flex flex-col gap-2">
-          <div className="overflow-hidden">
+          <div className="overflow-hidden py-2">
             <motion.h1 
               initial={{ x: isRtl ? 100 : -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-              className="text-5xl md:text-7xl lg:text-[6rem] font-bold uppercase tracking-tight leading-none"
+              className="text-5xl md:text-7xl lg:text-[6rem] font-bold uppercase tracking-tight leading-tight"
             >
               {lang === "ar" ? "كفاءة تقنية." : "TECHNICAL PRECISION."}
             </motion.h1>
           </div>
-          <div className="overflow-hidden">
+          <div className="overflow-hidden py-2">
             <motion.h1 
               initial={{ x: isRtl ? -100 : 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ delay: 0.2, duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-              className="text-5xl md:text-7xl lg:text-[6rem] font-bold uppercase tracking-tight leading-none"
+              className="text-5xl md:text-7xl lg:text-[6rem] font-bold uppercase tracking-tight leading-tight"
             >
               {lang === "ar" ? "تميز بصري." : "VISUAL DOMINANCE."}
             </motion.h1>
