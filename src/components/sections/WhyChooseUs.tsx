@@ -27,11 +27,11 @@ export default function WhyChooseUs() {
         num: "02",
         title: {
           ar: "جودة عالمية المستوى",
-          en: "World-Class Quality"
+          en: "World Class Quality"
         },
         description: {
           ar: "الكود المخصص والتصاميم ثلاثية الأبعاد عندنا بنفس مستوى أكبر بيوت الإنتاج العالمية. تحصل على تنفيذ احترافي بمعايير استوديو بدون أي تنازلات.",
-          en: "Our custom code and 3D renders match the caliber of top-tier international production houses. You get elite, studio-grade execution without any compromises."
+          en: "Our custom code and 3D renders match the caliber of top tier international production houses. You get elite, studio grade execution without any compromises."
         }
       },
       {
@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
         },
         description: {
           ar: "ما نقبل الأوامر بشكل أعمى. إذا خطتك التقنية فيها خلل هيكلي راح ينكسر تحت الضغط لاحقاً، بنقولك مباشرة ونعطيك الحل الصحيح.",
-          en: "We aren't blind order-takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
+          en: "We aren't blind order takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
         }
       }
     ]

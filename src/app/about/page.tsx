@@ -81,7 +81,7 @@ export default function AboutPage() {
                   </>
                 ) : (
                   <>
-                    Eagleon was started with a clear goal: to eliminate lazy templates, fragile code, and cookie-cutter designs. We bridge the gap between heavy technical engineering and high-end creative production. Whether we are writing clean, scalable code or rendering studio-grade visuals, we build custom digital assets designed to give your business an <span className="text-brand-primary font-medium">undeniable edge</span>.
+                    Eagleon was started with a clear goal: to eliminate lazy templates, fragile code, and cookie cutter designs. We bridge the gap between heavy technical engineering and high end creative production. Whether we are writing clean, scalable code or rendering studio grade visuals, we build custom digital assets designed to give your business an <span className="text-brand-primary font-medium">undeniable edge</span>.
                   </>
                 )}
               </p>
@@ -112,7 +112,7 @@ export default function AboutPage() {
                   </>
                 ) : (
                   <>
-                    We believe your digital presence should look incredible and work flawlessly at the same time. No bloated code, no recycled design shortcuts, and no agency jargon. We focus strictly on absolute data security, <span className="text-brand-primary font-medium">sub-second loading speeds</span>, and bespoke visual execution tailored directly to your business goals.
+                    We believe your digital presence should look incredible and work flawlessly at the same time. No bloated code, no recycled design shortcuts, and no agency jargon. We focus strictly on absolute data security, <span className="text-brand-primary font-medium">sub second loading speeds</span>, and bespoke visual execution tailored directly to your business goals.
                   </>
                 )}
               </p>
@@ -184,10 +184,10 @@ export default function AboutPage() {
                 }
               },
               {
-                title: { ar: "جودة بمستوى عالمي", en: "World-Class Quality" },
+                title: { ar: "جودة بمستوى عالمي", en: "World Class Quality" },
                 desc: {
                   ar: "برمجتنا المخصصة وتصاميم الـ CGI لدينا تضاهي أعمال أكبر الاستوديوهات العالمية. ستحصل على جودة تنفيذ احترافية تنافس على أي مستوى",
-                  en: "Our custom code and 3D renders match the caliber of top-tier international production houses. You get elite, studio-grade execution without any compromises."
+                  en: "Our custom code and 3D renders match the caliber of top tier international production houses. You get elite, studio grade execution without any compromises."
                 }
               },
               {
@@ -201,7 +201,7 @@ export default function AboutPage() {
                 title: { ar: "شفافية تقنية مطلقة", en: "Blunt, Honest Engineering" },
                 desc: {
                   ar: "لسنا مجرد منفذين للأوامر. إذا وجدنا أي مشكلة أو ثغرة في خطتك التقنية قد تعطل مشروعك مستقبلاً، سنخبرك بها فوراً ونعطيك الحل الصحيح مباشرة",
-                  en: "We aren't blind order-takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
+                  en: "We aren't blind order takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
                 }
               }
             ].map((item, idx) => {

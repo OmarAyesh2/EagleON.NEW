@@ -155,9 +155,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-white/[0.06] flex items-center justify-center">
+        <div className="mt-16 pt-8 border-t border-white/[0.06] flex items-center justify-center text-center">
           <p className="text-xs text-brand-gray2">
-            © 2026 Digital Solutions. All Rights Reserved.
+            {lang === "ar"
+              ? "© 2026 EAGLEON للحلول الرقمية. جميع الحقوق محفوظة."
+              : "© 2026 EAGLEON Digital Solutions. All Rights Reserved."}
           </p>
         </div>
 

@@ -128,7 +128,7 @@ function LiquidButton(param) {
             ...props,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute top-0 left-0 z-0 h-full w-full rounded-full  shadow-[0_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3px_rgba(0,0,0,0.9),inset_-3px_-3px_0.5px_-3px_rgba(0,0,0,0.85),inset_1px_1px_1px_-0.5px_rgba(0,0,0,0.6),inset_-1px_-1px_1px_-0.5px_rgba(0,0,0,0.6),inset_0_0_6px_6px_rgba(0,0,0,0.12),inset_0_0_2px_2px_rgba(0,0,0,0.06),0_0_12px_rgba(255,255,255,0.15)]  transition-all  dark:shadow-[0_0_8px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3.5px_rgba(255,255,255,0.09),inset_-3px_-3px_0.5px_-3.5px_rgba(255,255,255,0.85),inset_1px_1px_1px_-0.5px_rgba(255,255,255,0.6),inset_-1px_-1px_1px_-0.5px_rgba(255,255,255,0.6),inset_0_0_6px_6px_rgba(255,255,255,0.12),inset_0_0_2px_2px_rgba(255,255,255,0.06),0_0_12px_rgba(0,0,0,0.15)]"
+                    className: "absolute top-0 left-0 z-0 h-full w-full rounded-full    shadow-[0_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3px_rgba(0,0,0,0.9),inset_-3px_-3px_0.5px_-3px_rgba(0,0,0,0.85),inset_1px_1px_1px_-0.5px_rgba(0,0,0,0.6),inset_-1px_-1px_1px_-0.5px_rgba(0,0,0,0.6),inset_0_0_6px_6px_rgba(0,0,0,0.12),inset_0_0_2px_2px_rgba(0,0,0,0.06),0_0_12px_rgba(255,255,255,0.15)]    transition-all    dark:shadow-[0_0_8px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3.5px_rgba(255,255,255,0.09),inset_-3px_-3px_0.5px_-3.5px_rgba(255,255,255,0.85),inset_1px_1px_1px_-0.5px_rgba(255,255,255,0.6),inset_-1px_-1px_1px_-0.5px_rgba(255,255,255,0.6),inset_0_0_6px_6px_rgba(255,255,255,0.12),inset_0_0_2px_2px_rgba(255,255,255,0.06),0_0_12px_rgba(0,0,0,0.15)]"
                 }, void 0, false, {
                     fileName: "[project]/src/components/ui/liquid-glass-button.tsx",
                     lineNumber: 115,
@@ -1078,7 +1078,7 @@ function Hero() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-base md:text-xl leading-relaxed tracking-tight text-white max-w-2xl text-center mx-auto px-4 md:px-0",
-                                    children: lang === "ar" ? "مواقع مخصصة، هوية بصرية، إدارة سوشيال ميديا، و CGI سينمائي — مصممة للشركات الجاهزة للتميّز في سوقها." : "Custom websites, brand identity, social media, and cinema-grade CGI — engineered for businesses ready to dominate their market."
+                                    children: lang === "ar" ? "مواقع مخصصة، هوية بصرية متكاملة، إدارة سوشيال ميديا، و CGI سينمائي — كلها تحت سقف واحد في عمّان." : "Custom websites, full brand identity, social media management, and cinema grade CGI — all under one roof in Amman."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Hero.tsx",
                                     lineNumber: 129,
@@ -1589,28 +1589,28 @@ const services = [
         },
         description: {
             ar: "نبرمج مواقع وتطبيقات تفاعلية، سريعة ومحسنة لمحركات البحث لتعزيز تواجدك الرقمي وزيادة مبيعاتك.",
-            en: "We build interactive, blazing-fast, and SEO-optimized websites and applications to boost your digital presence and sales."
+            en: "We build interactive, blazing fast, and SEO optimized websites and applications to boost your digital presence and sales."
         },
         icon: "Globe",
         featured: true,
         href: "/services/web-development",
         tagline: {
             ar: "مواقع وتطبيقات مبنية من الصفر بدون قوالب",
-            en: "Custom-built websites and apps — zero templates"
+            en: "Custom built websites and apps — zero templates"
         },
         overview: {
             ar: "نبني مواقع ويب وتطبيقات مخصصة بالكامل باستخدام أحدث التقنيات. كل سطر كود مكتوب خصيصاً لمشروعك لضمان أعلى أداء وأمان وقابلية للتوسع.",
-            en: "We build fully custom websites and web applications using cutting-edge technology. Every line of code is written specifically for your project to ensure peak performance, security, and scalability."
+            en: "We build fully custom websites and web applications using modern technology. Every line of code is written specifically for your project to ensure peak performance, security, and scalability."
         },
         features: [
             {
                 title: {
-                    ar: "تطوير Full-Stack مخصص",
-                    en: "Custom Full-Stack Development"
+                    ar: "تطوير Full Stack مخصص",
+                    en: "Custom Full Stack Development"
                 },
                 description: {
-                    ar: "بناء كامل من الواجهة الأمامية للخلفية بتقنيات حديثة مثل Next.js و React",
-                    en: "Complete frontend-to-backend build with modern tech like Next.js and React"
+                    ar: "بناء كامل من الواجهة الأمامية للخلفية بتقنيات حديثة مثل Next.js و React.",
+                    en: "Complete frontend to backend build with modern tech like Next.js and React."
                 }
             },
             {
@@ -1619,8 +1619,8 @@ const services = [
                     en: "Responsive UI/UX Design"
                 },
                 description: {
-                    ar: "تصاميم تعمل بسلاسة على جميع الأجهزة والشاشات",
-                    en: "Designs that work flawlessly across all devices and screen sizes"
+                    ar: "تصاميم تعمل بسلاسة على جميع الأجهزة والشاشات.",
+                    en: "Looks and works right on every screen size."
                 }
             },
             {
@@ -1629,18 +1629,18 @@ const services = [
                     en: "Technical SEO"
                 },
                 description: {
-                    ar: "بنية تقنية محسنة لتصدر نتائج البحث وزيادة الزيارات العضوية",
-                    en: "Optimized technical architecture to rank higher and drive organic traffic"
+                    ar: "بنية تقنية محسنة لتصدر نتائج البحث وزيادة الزيارات العضوية.",
+                    en: "Site structure built for Google from day one. Not bolted on after."
                 }
             },
             {
                 title: {
                     ar: "أداء فائق السرعة",
-                    en: "Blazing-Fast Performance"
+                    en: "Blazing Fast Performance"
                 },
                 description: {
-                    ar: "مواقع تحمل في أقل من ثانية مع أعلى درجات Core Web Vitals",
-                    en: "Sites that load in under a second with top Core Web Vitals scores"
+                    ar: "مواقع تحمل في أقل من ثانية مع أعلى درجات Core Web Vitals.",
+                    en: "Sites that load in under a second with top Core Web Vitals scores."
                 }
             },
             {
@@ -1649,8 +1649,8 @@ const services = [
                     en: "Custom Admin Dashboard"
                 },
                 description: {
-                    ar: "واجهة إدارة سهلة الاستخدام للتحكم الكامل بمحتوى موقعك",
-                    en: "Easy-to-use admin interface for full control over your site content"
+                    ar: "واجهة إدارة سهلة الاستخدام للتحكم الكامل بمحتوى موقعك.",
+                    en: "Admin interface you can actually use. Full control over your site content."
                 }
             },
             {
@@ -1659,8 +1659,8 @@ const services = [
                     en: "Ongoing Maintenance & Support"
                 },
                 description: {
-                    ar: "دعم تقني مستمر وتحديثات أمنية لضمان استمرارية موقعك",
-                    en: "Continuous technical support and security updates to keep your site running"
+                    ar: "دعم تقني مستمر وتحديثات أمنية لضمان استمرارية موقعك.",
+                    en: "We don't disappear after launch. Monthly updates, security patches, and priority support."
                 }
             }
         ],
@@ -1719,18 +1719,18 @@ const services = [
         },
         description: {
             ar: "نخلق عوالم بصرية مذهلة وتأثيرات سينمائية تأسر جمهورك وترفع من قيمة علامتك التجارية.",
-            en: "We create stunning visual worlds and cinematic CGI effects that captivate your audience and elevate your brand value."
+            en: "We create stunning visual worlds and cinematic CGI effects that captivate your audience and raise your brand value."
         },
         icon: "Cuboid",
         featured: true,
         href: "/services/3d-modeling-cgi",
         tagline: {
             ar: "عوالم بصرية سينمائية تأسر الجمهور",
-            en: "Cinema-grade visuals that captivate audiences"
+            en: "Cinema grade visuals that captivate audiences"
         },
         overview: {
             ar: "ننتج تصاميم ثلاثية الأبعاد وتأثيرات بصرية بجودة سينمائية للحملات الإعلانية والمنتجات. من النمذجة والتحريك إلى المونتاج النهائي.",
-            en: "We produce cinema-quality 3D designs and visual effects for advertising campaigns and products. From modeling and animation to final compositing."
+            en: "We produce cinema quality 3D designs and visual effects for advertising campaigns and products. From modeling and animation to final compositing."
         },
         features: [
             {
@@ -1739,8 +1739,8 @@ const services = [
                     en: "Photorealistic 3D Modeling"
                 },
                 description: {
-                    ar: "نماذج عالية الدقة للمنتجات والبيئات والشخصيات",
-                    en: "High-fidelity models for products, environments, and characters"
+                    ar: "نماذج عالية الدقة للمنتجات والبيئات والشخصيات.",
+                    en: "High fidelity models for products, environments, and characters."
                 }
             },
             {
@@ -2128,7 +2128,7 @@ const services = [
             {
                 title: {
                     ar: "ما قبل الإنتاج",
-                    en: "Pre-Production"
+                    en: "Pre Production"
                 },
                 description: {
                     ar: "التخطيط والسيناريو واختيار المواقع والفريق",
@@ -2148,7 +2148,7 @@ const services = [
             {
                 title: {
                     ar: "ما بعد الإنتاج",
-                    en: "Post-Production"
+                    en: "Post Production"
                 },
                 description: {
                     ar: "المونتاج والمؤثرات وتصحيح الألوان والصوت",
@@ -2313,9 +2313,9 @@ function Services() {
             ...service,
             numId: "0".concat(index + 1),
             image: [
-                "https://cdn.21st.dev/assets/mirror/10/10c8513636cffc0690df33c3a253e29d6876b8af69ad7ad404c186a0f6f7003c.jpg",
-                "https://cdn.21st.dev/assets/mirror/41/411990f399ad255e8c51100a625228dc73ca5346175e22fff6bb8e4719ef1918.jpg",
-                "https://cdn.21st.dev/assets/mirror/1b/1b4d5fbf6ad8d0edcab03b93c5bf5f89f546d21cd965ec4b27cb3756904e25d0.jpg"
+                "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
+                "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
+                "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png"
             ][index % 3]
         }));
     const handleNext = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useCallback"])({
@@ -2390,7 +2390,7 @@ function Services() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-3xl md:text-5xl font-bold tracking-tight text-white mb-4",
-                                    children: isRtl ? "حلول رقمية متكاملة لنمو أعمالك" : "End-to-End Digital Solutions for Growth"
+                                    children: isRtl ? "خدماتنا" : "WHAT WE DO"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Services.tsx",
                                     lineNumber: 83,
@@ -2398,7 +2398,7 @@ function Services() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-muted-foreground",
-                                    children: isRtl ? "نقدم مجموعة شاملة من الخدمات الرقمية والإبداعية المصممة خصيصاً لتلبية احتياجاتك وتحقيق أهدافك بفعالية واحترافية عالية." : "We offer a comprehensive suite of digital and creative services tailored to meet your needs and achieve your goals with high efficiency and professionalism."
+                                    children: isRtl ? "خمس خدمات أساسية. كل واحدة مبنية من الصفر لعملك تحديداً. بدون باقات جاهزة وبدون اختصارات." : "Five core services. Each one built from scratch for your specific business. No packages, no shortcuts."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Services.tsx",
                                     lineNumber: 88,
@@ -2592,7 +2592,7 @@ function Services() {
                                 onMouseEnter: ()=>setIsPaused(true),
                                 onMouseLeave: ()=>setIsPaused(false),
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden bg-white/5 border border-white/10",
+                                    className: "relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                                             initial: false,
@@ -2616,26 +2616,17 @@ function Services() {
                                                 },
                                                 className: "absolute inset-0 w-full h-full cursor-pointer",
                                                 onClick: handleNext,
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                        src: featuredServices[activeIndex].image,
-                                                        alt: featuredServices[activeIndex].title[lang],
-                                                        className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block",
-                                                        loading: "lazy"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 222,
-                                                        columnNumber: 21
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 229,
-                                                        columnNumber: 21
-                                                    }, this)
-                                                ]
-                                            }, activeIndex, true, {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: featuredServices[activeIndex].image,
+                                                    alt: featuredServices[activeIndex].title[lang],
+                                                    className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block",
+                                                    loading: "lazy"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/components/sections/Services.tsx",
+                                                    lineNumber: 222,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, activeIndex, false, {
                                                 fileName: "[project]/src/components/sections/Services.tsx",
                                                 lineNumber: 208,
                                                 columnNumber: 19
@@ -2659,18 +2650,18 @@ function Services() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 246,
+                                                        lineNumber: 245,
                                                         columnNumber: 30
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$left$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowLeft$3e$__["ArrowLeft"], {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 246,
+                                                        lineNumber: 245,
                                                         columnNumber: 67
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/Services.tsx",
-                                                    lineNumber: 238,
+                                                    lineNumber: 237,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -2684,24 +2675,24 @@ function Services() {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 255,
                                                         columnNumber: 30
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                         className: "w-5 h-5"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/sections/Services.tsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 255,
                                                         columnNumber: 66
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/Services.tsx",
-                                                    lineNumber: 248,
+                                                    lineNumber: 247,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/sections/Services.tsx",
-                                            lineNumber: 234,
+                                            lineNumber: 233,
                                             columnNumber: 17
                                         }, this)
                                     ]
@@ -2736,17 +2727,17 @@ function Services() {
                             className: "w-full max-w-sm"
                         }, void 0, false, {
                             fileName: "[project]/src/components/sections/Services.tsx",
-                            lineNumber: 267,
+                            lineNumber: 266,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/sections/Services.tsx",
-                        lineNumber: 266,
+                        lineNumber: 265,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/sections/Services.tsx",
-                    lineNumber: 265,
+                    lineNumber: 264,
                     columnNumber: 9
                 }, this)
             ]
@@ -3414,7 +3405,7 @@ function Portfolio() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     className: "text-3xl md:text-5xl font-bold tracking-tight text-white mb-4",
-                                    children: isRtl ? "نقدم نتائج ملموسة وهيمنة رقمية" : "Delivering Tangible Results & Digital Dominance"
+                                    children: isRtl ? "أعمالنا" : "OUR WORK"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Portfolio.tsx",
                                     lineNumber: 22,
@@ -3422,7 +3413,7 @@ function Portfolio() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-lg text-muted-foreground",
-                                    children: isRtl ? "استكشف مجموعة من أبرز أعمالنا التي ساهمت في تحويل رؤى عملائنا إلى نجاحات رقمية رائدة في السوق." : "Explore a selection of our top projects that have transformed our clients' visions into market-leading digital successes."
+                                    children: isRtl ? "مشاريع حقيقية سلّمناها. صناعات مختلفة، نفس المعيار." : "Real projects we've shipped. Different industries, same standard."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/sections/Portfolio.tsx",
                                     lineNumber: 27,
@@ -3673,7 +3664,7 @@ function Comparison() {
     const content = {
         heading: {
             ar: "لماذا لا نستخدم القوالب الجاهزة؟",
-            en: "THE ANTI-TEMPLATE APPROACH"
+            en: "THE ANTI TEMPLATE APPROACH"
         },
         subtitle: {
             ar: "لماذا الحلول الجاهزة تفشل في تحقيق نتائج استراتيجية حقيقية.",
@@ -3687,7 +3678,7 @@ function Comparison() {
             items: [
                 {
                     ar: "حماية ضعيفة من إضافات رخيصة وجاهزة",
-                    en: "Weak security from cheap, pre-made plugins"
+                    en: "Weak security from cheap, premade plugins"
                 },
                 {
                     ar: "سرعة تحميل بطيئة تخسرك عملاءك",
@@ -3699,7 +3690,7 @@ function Comparison() {
                 },
                 {
                     ar: "تصاميم مكررة ومملة تشبه أي موقع آخر",
-                    en: "Boring, copy-paste designs that look like everyone else"
+                    en: "Boring, copy paste designs that look like everyone else"
                 }
             ],
             footer: {
@@ -3715,7 +3706,7 @@ function Comparison() {
             items: [
                 {
                     ar: "حماية متينة مبنية من الصفر خصيصاً لك",
-                    en: "Solid, custom-built security from scratch"
+                    en: "Solid, custom built security from scratch"
                 },
                 {
                     ar: "مرونة 100% لإضافة أي ميزة في أي وقت",
@@ -3727,7 +3718,7 @@ function Comparison() {
                 },
                 {
                     ar: "أداء خارق وسرعة تحميل فورية",
-                    en: "Lightning-fast performance and instant loading"
+                    en: "Lightning fast performance and instant loading"
                 }
             ],
             footer: {
@@ -4189,11 +4180,11 @@ function WhyChooseUs() {
                 num: "02",
                 title: {
                     ar: "جودة عالمية المستوى",
-                    en: "World-Class Quality"
+                    en: "World Class Quality"
                 },
                 description: {
                     ar: "الكود المخصص والتصاميم ثلاثية الأبعاد عندنا بنفس مستوى أكبر بيوت الإنتاج العالمية. تحصل على تنفيذ احترافي بمعايير استوديو بدون أي تنازلات.",
-                    en: "Our custom code and 3D renders match the caliber of top-tier international production houses. You get elite, studio-grade execution without any compromises."
+                    en: "Our custom code and 3D renders match the caliber of top tier international production houses. You get elite, studio grade execution without any compromises."
                 }
             },
             {
@@ -4215,7 +4206,7 @@ function WhyChooseUs() {
                 },
                 description: {
                     ar: "ما نقبل الأوامر بشكل أعمى. إذا خطتك التقنية فيها خلل هيكلي راح ينكسر تحت الضغط لاحقاً، بنقولك مباشرة ونعطيك الحل الصحيح.",
-                    en: "We aren't blind order-takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
+                    en: "We aren't blind order takers. If your technical plan has a structural flaw that will break under pressure later, we will call it out immediately and give you the right fix."
                 }
             }
         ]
@@ -4360,7 +4351,7 @@ function CTABand() {
         },
         subtitle: {
             ar: "كل مشروع يتم تحديد نطاقه حسب احتياجك الفعلي. أخبرنا بأهدافك وسنرسل لك عرض سعر مفصل ومحدد خلال 48 ساعة — بدون رسوم مفاجئة، بدون باقات جاهزة.",
-            en: "Every engagement is scoped to what you actually need. Tell us your goals and we'll send a fixed, itemized quote within 48 hours—no surprise fees, no generic packages."
+            en: "Every engagement is scoped to what you actually need. Tell us your goals and we'll send a fixed, itemized quote within 48 hours — no surprise fees, no generic packages."
         },
         primaryBtn: {
             ar: "احصل على عرض سعر",

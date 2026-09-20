@@ -10,7 +10,7 @@ export default function Comparison() {
   const content = {
     heading: {
       ar: "لماذا لا نستخدم القوالب الجاهزة؟",
-      en: "THE ANTI-TEMPLATE APPROACH"
+      en: "THE ANTI TEMPLATE APPROACH"
     },
     subtitle: {
       ar: "لماذا الحلول الجاهزة تفشل في تحقيق نتائج استراتيجية حقيقية.",
@@ -19,20 +19,20 @@ export default function Comparison() {
     trap: {
       title: { ar: "فخ القوالب الجاهزة", en: "The Template Trap" },
       items: [
-        { ar: "حماية ضعيفة من إضافات رخيصة وجاهزة", en: "Weak security from cheap, pre-made plugins" },
+        { ar: "حماية ضعيفة من إضافات رخيصة وجاهزة", en: "Weak security from cheap, premade plugins" },
         { ar: "سرعة تحميل بطيئة تخسرك عملاءك", en: "Slow loading speeds that lose you customers" },
         { ar: "تصاميم جامدة يصعب تعديلها أو توسيعها لاحقاً", en: "Rigid layouts that are hard to change or expand later" },
-        { ar: "تصاميم مكررة ومملة تشبه أي موقع آخر", en: "Boring, copy-paste designs that look like everyone else" }
+        { ar: "تصاميم مكررة ومملة تشبه أي موقع آخر", en: "Boring, copy paste designs that look like everyone else" }
       ],
       footer: { ar: "الحالة: تم اكتشاف عنق الزجاجة", en: "Status: Bottleneck Detected" }
     },
     custom: {
       title: { ar: "بناء EagleOn المخصص", en: "EagleOn Custom Build" },
       items: [
-        { ar: "حماية متينة مبنية من الصفر خصيصاً لك", en: "Solid, custom-built security from scratch" },
+        { ar: "حماية متينة مبنية من الصفر خصيصاً لك", en: "Solid, custom built security from scratch" },
         { ar: "مرونة 100% لإضافة أي ميزة في أي وقت", en: "100% flexible to add any new feature anytime" },
         { ar: "تصميم فريد مصمم ليكسبك عملاء جدد", en: "Unique, custom design built to win you clients" },
-        { ar: "أداء خارق وسرعة تحميل فورية", en: "Lightning-fast performance and instant loading" }
+        { ar: "أداء خارق وسرعة تحميل فورية", en: "Lightning fast performance and instant loading" }
       ],
       footer: { ar: "الأداء: 100%", en: "Performance: 100%" }
     }

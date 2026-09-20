@@ -14,7 +14,7 @@ const AUTO_PLAY_DURATION = 5000;
 
 export default function ServicesPage() {
   const { lang, isRtl } = useLanguage();
-  
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -24,11 +24,11 @@ export default function ServicesPage() {
     ...service,
     numId: `0${index + 1}`,
     image: [
-      "https://cdn.21st.dev/assets/mirror/10/10c8513636cffc0690df33c3a253e29d6876b8af69ad7ad404c186a0f6f7003c.jpg",
-      "https://cdn.21st.dev/assets/mirror/41/411990f399ad255e8c51100a625228dc73ca5346175e22fff6bb8e4719ef1918.jpg",
-      "https://cdn.21st.dev/assets/mirror/1b/1b4d5fbf6ad8d0edcab03b93c5bf5f89f546d21cd965ec4b27cb3756904e25d0.jpg",
-      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1536240478700-b869070f9279?q=80&w=1000&auto=format&fit=crop"
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789921123/Untitled1_pibzyv.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789921123/Untitled1_pibzyv.png"
     ][index % 5]
   }));
 
@@ -87,7 +87,7 @@ export default function ServicesPage() {
     },
     subtitle: {
       ar: "EagleOn Digital استوديو تقني وإبداعي مقره عمّان، الأردن. نبني مواقع وتطبيقات ويب مخصصة بالكامل بدون قوالب جاهزة، وأنظمة هوية بصرية متكاملة من الاستراتيجية حتى دليل الاستخدام، وتصاميم CGI و VFX سينمائية للحملات التي تتجاوز حدود التصوير التقليدي.",
-      en: "EagleOn Digital is a technical and creative studio based in Amman, Jordan. We build fully custom websites and web applications with no template shortcuts, complete brand identity systems from strategy through usage guidelines, and cinema-grade CGI and VFX for campaigns that go beyond what traditional photography can deliver."
+      en: "EagleOn Digital is a technical and creative studio based in Amman, Jordan. We build fully custom websites and web applications with no template shortcuts, complete brand identity systems from strategy through usage guidelines, and cinema grade CGI and VFX for campaigns that go beyond what traditional photography can deliver."
     }
   };
 
@@ -127,7 +127,7 @@ export default function ServicesPage() {
 
   return (
     <div className="min-h-[100dvh]">
-      
+
       {/* SECTION 1: Hero Banner */}
       <section className="relative w-full pt-40 pb-20 px-4 md:px-10 overflow-hidden">
         <div className="container mx-auto relative z-10 text-center flex flex-col items-center">
@@ -152,9 +152,9 @@ export default function ServicesPage() {
       {/* SECTION 2: Vertical Tabs Gallery */}
       <section className="relative w-full py-20 lg:py-32 overflow-hidden border-t border-white/5 bg-[#0a0a0f]/30">
         <div className="container mx-auto px-4 relative z-10">
-          
+
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-            
+
             {/* Left Column: Content */}
             <div className="lg:col-span-5 flex flex-col justify-start order-2 lg:order-1 pt-4">
               <div className="flex flex-col space-y-0 justify-start h-[520px] md:h-[580px] lg:h-[620px]">
@@ -223,7 +223,7 @@ export default function ServicesPage() {
                               <p className="text-muted-foreground text-sm md:text-base font-normal leading-relaxed max-w-sm pb-4">
                                 {service.description[lang]}
                               </p>
-                              
+
                               <Link
                                 href={service.href}
                                 onClick={(e) => e.stopPropagation()}
@@ -253,7 +253,7 @@ export default function ServicesPage() {
                 onMouseEnter={() => setIsPaused(true)}
                 onMouseLeave={() => setIsPaused(false)}
               >
-                <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden bg-white/5 border border-white/10">
+                <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
                   <AnimatePresence
                     initial={false}
                     custom={direction}
@@ -313,7 +313,7 @@ export default function ServicesPage() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
@@ -321,7 +321,7 @@ export default function ServicesPage() {
       {/* SECTION 3: Our Process */}
       <section className="relative w-full py-24 md:py-32 px-4 md:px-10 border-t border-white/5 overflow-hidden">
         <div className="container mx-auto max-w-6xl relative z-10">
-          
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -336,10 +336,10 @@ export default function ServicesPage() {
 
           {/* Process Timeline */}
           <div className="relative flex flex-col md:flex-row justify-between gap-10 md:gap-4 lg:gap-6">
-            
+
             {/* Horizontal Line for Desktop */}
             <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-[1px] bg-white/10 z-0" />
-            
+
             {processContent.steps.map((step, index) => (
               <motion.div
                 key={step.num}
@@ -360,14 +360,14 @@ export default function ServicesPage() {
                 </p>
               </motion.div>
             ))}
-            
+
           </div>
         </div>
       </section>
 
       {/* SECTION 4: CTA Band */}
       <CTABand />
-      
+
     </div>
   );
 }

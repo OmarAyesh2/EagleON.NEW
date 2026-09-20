@@ -21,13 +21,13 @@ export default function Portfolio() {
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
               {isRtl
-                ? "نقدم نتائج ملموسة وهيمنة رقمية"
-                : "Delivering Tangible Results & Digital Dominance"}
+                ? "أعمالنا"
+                : "OUR WORK"}
             </h2>
             <p className="text-lg text-muted-foreground">
               {isRtl
-                ? "استكشف مجموعة من أبرز أعمالنا التي ساهمت في تحويل رؤى عملائنا إلى نجاحات رقمية رائدة في السوق."
-                : "Explore a selection of our top projects that have transformed our clients' visions into market-leading digital successes."}
+                ? "مشاريع حقيقية سلّمناها. صناعات مختلفة، نفس المعيار."
+                : "Real projects we've shipped. Different industries, same standard."}
             </p>
           </div>
 

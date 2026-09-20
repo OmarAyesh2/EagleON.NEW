@@ -69,7 +69,7 @@ export default function ContactPage() {
           >
             {lang === "ar"
               ? "سواء كنت تبحث عن شريك استراتيجي لمشروع كامل، أو تحتاج لاستشارة حول تحدٍ رقمي محدد — نحن هنا للاستماع ومساعدتك."
-              : "Whether you're looking for a strategic partner for a complete project or need consultation on a specific digital challenge—we're here to listen and help."}
+              : "Whether you're looking for a strategic partner for a complete project or need consultation on a specific digital challenge — we're here to listen and help."}
           </motion.p>
 
           <motion.div

@@ -14,7 +14,7 @@ export default function CTABand() {
     },
     subtitle: {
       ar: "كل مشروع يتم تحديد نطاقه حسب احتياجك الفعلي. أخبرنا بأهدافك وسنرسل لك عرض سعر مفصل ومحدد خلال 48 ساعة — بدون رسوم مفاجئة، بدون باقات جاهزة.",
-      en: "Every engagement is scoped to what you actually need. Tell us your goals and we'll send a fixed, itemized quote within 48 hours—no surprise fees, no generic packages."
+      en: "Every engagement is scoped to what you actually need. Tell us your goals and we'll send a fixed, itemized quote within 48 hours — no surprise fees, no generic packages."
     },
     primaryBtn: {
       ar: "احصل على عرض سعر",

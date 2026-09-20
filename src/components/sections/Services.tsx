@@ -13,7 +13,7 @@ const AUTO_PLAY_DURATION = 5000;
 
 export default function Services() {
   const { lang, isRtl } = useLanguage();
-  
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [direction, setDirection] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -23,9 +23,9 @@ export default function Services() {
     ...service,
     numId: `0${index + 1}`,
     image: [
-      "https://cdn.21st.dev/assets/mirror/10/10c8513636cffc0690df33c3a253e29d6876b8af69ad7ad404c186a0f6f7003c.jpg",
-      "https://cdn.21st.dev/assets/mirror/41/411990f399ad255e8c51100a625228dc73ca5346175e22fff6bb8e4719ef1918.jpg",
-      "https://cdn.21st.dev/assets/mirror/1b/1b4d5fbf6ad8d0edcab03b93c5bf5f89f546d21cd965ec4b27cb3756904e25d0.jpg"
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png"
     ][index % 3]
   }));
 
@@ -76,19 +76,19 @@ export default function Services() {
   return (
     <section className="relative w-full py-20 lg:py-32 overflow-hidden border-t border-white/5 bg-[#0a0a0f]/30">
       <div className="container mx-auto px-4 relative z-10">
-        
+
         {/* Header Area */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-16">
           <div className="max-w-2xl">
             <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white mb-4">
               {isRtl
-                ? "حلول رقمية متكاملة لنمو أعمالك"
-                : "End-to-End Digital Solutions for Growth"}
+                ? "خدماتنا"
+                : "WHAT WE DO"}
             </h2>
             <p className="text-lg text-muted-foreground">
               {isRtl
-                ? "نقدم مجموعة شاملة من الخدمات الرقمية والإبداعية المصممة خصيصاً لتلبية احتياجاتك وتحقيق أهدافك بفعالية واحترافية عالية."
-                : "We offer a comprehensive suite of digital and creative services tailored to meet your needs and achieve your goals with high efficiency and professionalism."}
+                ? "خمس خدمات أساسية. كل واحدة مبنية من الصفر لعملك تحديداً. بدون باقات جاهزة وبدون اختصارات."
+                : "Five core services. Each one built from scratch for your specific business. No packages, no shortcuts."}
             </p>
           </div>
 
@@ -99,7 +99,7 @@ export default function Services() {
 
         {/* Vertical Tabs Gallery area */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-          
+
           {/* Left Column: Content */}
           <div className="lg:col-span-5 flex flex-col justify-start order-2 lg:order-1 pt-4">
             <div className="flex flex-col space-y-0 justify-start h-[420px] md:h-[480px] lg:h-[500px]">
@@ -168,7 +168,7 @@ export default function Services() {
                             <p className="text-muted-foreground text-sm md:text-base font-normal leading-relaxed max-w-sm pb-4">
                               {service.description[lang]}
                             </p>
-                            
+
                             {/* Learn More Button */}
                             <Link
                               href={service.href}
@@ -199,7 +199,7 @@ export default function Services() {
               onMouseEnter={() => setIsPaused(true)}
               onMouseLeave={() => setIsPaused(false)}
             >
-              <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden bg-white/5 border border-white/10">
+              <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
                 <AnimatePresence
                   initial={false}
                   custom={direction}
@@ -226,7 +226,6 @@ export default function Services() {
                       loading="lazy"
                     />
 
-                    <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60" />
                   </motion.div>
                 </AnimatePresence>
 

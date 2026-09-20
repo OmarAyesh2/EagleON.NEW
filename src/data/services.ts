@@ -42,43 +42,43 @@ export const services: Service[] = [
     },
     description: {
       ar: "نبرمج مواقع وتطبيقات تفاعلية، سريعة ومحسنة لمحركات البحث لتعزيز تواجدك الرقمي وزيادة مبيعاتك.",
-      en: "We build interactive, blazing-fast, and SEO-optimized websites and applications to boost your digital presence and sales.",
+      en: "We build interactive, blazing fast, and SEO optimized websites and applications to boost your digital presence and sales.",
     },
     icon: "Globe",
     featured: true,
     href: "/services/web-development",
     tagline: {
       ar: "مواقع وتطبيقات مبنية من الصفر بدون قوالب",
-      en: "Custom-built websites and apps — zero templates"
+      en: "Custom built websites and apps — zero templates"
     },
     overview: {
       ar: "نبني مواقع ويب وتطبيقات مخصصة بالكامل باستخدام أحدث التقنيات. كل سطر كود مكتوب خصيصاً لمشروعك لضمان أعلى أداء وأمان وقابلية للتوسع.",
-      en: "We build fully custom websites and web applications using cutting-edge technology. Every line of code is written specifically for your project to ensure peak performance, security, and scalability."
+      en: "We build fully custom websites and web applications using modern technology. Every line of code is written specifically for your project to ensure peak performance, security, and scalability."
     },
     features: [
       {
-        title: { ar: "تطوير Full-Stack مخصص", en: "Custom Full-Stack Development" },
-        description: { ar: "بناء كامل من الواجهة الأمامية للخلفية بتقنيات حديثة مثل Next.js و React", en: "Complete frontend-to-backend build with modern tech like Next.js and React" }
+        title: { ar: "تطوير Full Stack مخصص", en: "Custom Full Stack Development" },
+        description: { ar: "بناء كامل من الواجهة الأمامية للخلفية بتقنيات حديثة مثل Next.js و React.", en: "Complete frontend to backend build with modern tech like Next.js and React." }
       },
       {
         title: { ar: "تصميم UI/UX متجاوب", en: "Responsive UI/UX Design" },
-        description: { ar: "تصاميم تعمل بسلاسة على جميع الأجهزة والشاشات", en: "Designs that work flawlessly across all devices and screen sizes" }
+        description: { ar: "تصاميم تعمل بسلاسة على جميع الأجهزة والشاشات.", en: "Looks and works right on every screen size." }
       },
       {
         title: { ar: "تحسين محركات البحث التقني", en: "Technical SEO" },
-        description: { ar: "بنية تقنية محسنة لتصدر نتائج البحث وزيادة الزيارات العضوية", en: "Optimized technical architecture to rank higher and drive organic traffic" }
+        description: { ar: "بنية تقنية محسنة لتصدر نتائج البحث وزيادة الزيارات العضوية.", en: "Site structure built for Google from day one. Not bolted on after." }
       },
       {
-        title: { ar: "أداء فائق السرعة", en: "Blazing-Fast Performance" },
-        description: { ar: "مواقع تحمل في أقل من ثانية مع أعلى درجات Core Web Vitals", en: "Sites that load in under a second with top Core Web Vitals scores" }
+        title: { ar: "أداء فائق السرعة", en: "Blazing Fast Performance" },
+        description: { ar: "مواقع تحمل في أقل من ثانية مع أعلى درجات Core Web Vitals.", en: "Sites that load in under a second with top Core Web Vitals scores." }
       },
       {
         title: { ar: "لوحة تحكم مخصصة", en: "Custom Admin Dashboard" },
-        description: { ar: "واجهة إدارة سهلة الاستخدام للتحكم الكامل بمحتوى موقعك", en: "Easy-to-use admin interface for full control over your site content" }
+        description: { ar: "واجهة إدارة سهلة الاستخدام للتحكم الكامل بمحتوى موقعك.", en: "Admin interface you can actually use. Full control over your site content." }
       },
       {
         title: { ar: "صيانة ودعم مستمر", en: "Ongoing Maintenance & Support" },
-        description: { ar: "دعم تقني مستمر وتحديثات أمنية لضمان استمرارية موقعك", en: "Continuous technical support and security updates to keep your site running" }
+        description: { ar: "دعم تقني مستمر وتحديثات أمنية لضمان استمرارية موقعك.", en: "We don't disappear after launch. Monthly updates, security patches, and priority support." }
       }
     ],
     process: [
@@ -110,23 +110,23 @@ export const services: Service[] = [
     },
     description: {
       ar: "نخلق عوالم بصرية مذهلة وتأثيرات سينمائية تأسر جمهورك وترفع من قيمة علامتك التجارية.",
-      en: "We create stunning visual worlds and cinematic CGI effects that captivate your audience and elevate your brand value.",
+      en: "We create stunning visual worlds and cinematic CGI effects that captivate your audience and raise your brand value.",
     },
     icon: "Cuboid",
     featured: true,
     href: "/services/3d-modeling-cgi",
     tagline: {
       ar: "عوالم بصرية سينمائية تأسر الجمهور",
-      en: "Cinema-grade visuals that captivate audiences"
+      en: "Cinema grade visuals that captivate audiences"
     },
     overview: {
       ar: "ننتج تصاميم ثلاثية الأبعاد وتأثيرات بصرية بجودة سينمائية للحملات الإعلانية والمنتجات. من النمذجة والتحريك إلى المونتاج النهائي.",
-      en: "We produce cinema-quality 3D designs and visual effects for advertising campaigns and products. From modeling and animation to final compositing."
+      en: "We produce cinema quality 3D designs and visual effects for advertising campaigns and products. From modeling and animation to final compositing."
     },
     features: [
       {
         title: { ar: "نمذجة ثلاثية الأبعاد واقعية", en: "Photorealistic 3D Modeling" },
-        description: { ar: "نماذج عالية الدقة للمنتجات والبيئات والشخصيات", en: "High-fidelity models for products, environments, and characters" }
+        description: { ar: "نماذج عالية الدقة للمنتجات والبيئات والشخصيات.", en: "High fidelity models for products, environments, and characters." }
       },
       {
         title: { ar: "تحريك وموشن ديزاين", en: "Animation & Motion Design" },
@@ -331,7 +331,7 @@ export const services: Service[] = [
     ],
     process: [
       {
-        title: { ar: "ما قبل الإنتاج", en: "Pre-Production" },
+        title: { ar: "ما قبل الإنتاج", en: "Pre Production" },
         description: { ar: "التخطيط والسيناريو واختيار المواقع والفريق", en: "Planning, scripting, location scouting, and crew selection" }
       },
       {
@@ -339,7 +339,7 @@ export const services: Service[] = [
         description: { ar: "تنفيذ التصوير بأعلى معايير الجودة", en: "Executing the shoot with the highest quality standards" }
       },
       {
-        title: { ar: "ما بعد الإنتاج", en: "Post-Production" },
+        title: { ar: "ما بعد الإنتاج", en: "Post Production" },
         description: { ar: "المونتاج والمؤثرات وتصحيح الألوان والصوت", en: "Editing, effects, color grading, and sound design" }
       },
       {

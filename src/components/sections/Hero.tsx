@@ -128,8 +128,8 @@ export default function Hero() {
 
             <p className="text-base md:text-xl leading-relaxed tracking-tight text-white max-w-2xl text-center mx-auto px-4 md:px-0">
               {lang === "ar"
-                ? "مواقع مخصصة، هوية بصرية، إدارة سوشيال ميديا، و CGI سينمائي — مصممة للشركات الجاهزة للتميّز في سوقها."
-                : "Custom websites, brand identity, social media, and cinema-grade CGI — engineered for businesses ready to dominate their market."}
+                ? "مواقع مخصصة، هوية بصرية متكاملة، إدارة سوشيال ميديا، و CGI سينمائي — كلها تحت سقف واحد في عمّان."
+                : "Custom websites, full brand identity, social media management, and cinema grade CGI — all under one roof in Amman."}
             </p>
           </div>
 
