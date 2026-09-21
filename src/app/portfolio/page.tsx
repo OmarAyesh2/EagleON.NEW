@@ -154,7 +154,7 @@ export default function PortfolioPage() {
                         className="group block relative rounded-2xl overflow-hidden border border-white/10 aspect-[4/3]"
                       >
                         <img 
-                          src={project.image} 
+                          src={project.thumbnail || project.image} 
                           alt={project.title[lang]} 
                           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                           loading="lazy"

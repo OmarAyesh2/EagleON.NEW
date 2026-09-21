@@ -87,7 +87,11 @@ export default function ServiceDetailPage() {
           title: f.title[lang],
           text: f.description[lang],
         }))}
-        tabs={[
+        tabs={service.tabs ? service.tabs.map((tab, i) => ({
+          value: `tab-${i + 1}`,
+          label: tab.label[lang as "ar" | "en"],
+          src: tab.src
+        })) : [
           {
             value: "tab-1",
             label: lang === "ar" ? "تصميم" : "Design",

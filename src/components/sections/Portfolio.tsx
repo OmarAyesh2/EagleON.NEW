@@ -52,7 +52,7 @@ export default function Portfolio() {
                 <Link href={project.href} className="block w-full">
                   <div className="relative w-full aspect-[16/10] overflow-hidden">
                     <img
-                      src={project.image}
+                      src={project.thumbnail || project.image}
                       alt={project.title[lang]}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"

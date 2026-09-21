@@ -199,7 +199,7 @@ export default function Services() {
               onMouseEnter={() => setIsPaused(true)}
               onMouseLeave={() => setIsPaused(false)}
             >
-              <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
+              <div className="relative aspect-video md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
                 <AnimatePresence
                   initial={false}
                   custom={direction}
@@ -222,7 +222,7 @@ export default function Services() {
                     <img
                       src={featuredServices[activeIndex].image}
                       alt={featuredServices[activeIndex].title[lang]}
-                      className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block"
+                      className="w-full h-full object-contain md:object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block"
                       loading="lazy"
                     />
 

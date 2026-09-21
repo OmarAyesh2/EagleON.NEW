@@ -29,6 +29,10 @@ export interface Service {
     title: { ar: string; en: string };
     description: { ar: string; en: string };
   }[];
+  tabs?: {
+    label: { ar: string; en: string };
+    src: string;
+  }[];
   relatedSlugs: string[];
 }
 
@@ -99,6 +103,16 @@ export const services: Service[] = [
         description: { ar: "ننشر المشروع ونراقب الأداء والنتائج", en: "We deploy the project and monitor performance and results" }
       }
     ],
+    tabs: [
+      {
+        label: { ar: "تصميم", en: "Design" },
+        src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+      },
+      {
+        label: { ar: "أداء", en: "Performance" },
+        src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+      }
+    ],
     relatedSlugs: ["nexus-tech-website"]
   },
   {
@@ -161,6 +175,16 @@ export const services: Service[] = [
       {
         title: { ar: "المونتاج والتسليم", en: "Compositing & Delivery" },
         description: { ar: "نجمع كل العناصر ونسلم المنتج النهائي", en: "We composite all elements and deliver the final product" }
+      }
+    ],
+    tabs: [
+      {
+        label: { ar: "تصميم", en: "Design" },
+        src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+      },
+      {
+        label: { ar: "أداء", en: "Performance" },
+        src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
       }
     ],
     relatedSlugs: ["cyber-city-cgi"]
@@ -227,6 +251,16 @@ export const services: Service[] = [
         description: { ar: "نسلم جميع الملفات مع دليل الاستخدام الكامل", en: "We deliver all files with the complete usage guide" }
       }
     ],
+    tabs: [
+      {
+        label: { ar: "تصميم", en: "Design" },
+        src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+      },
+      {
+        label: { ar: "أداء", en: "Performance" },
+        src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+      }
+    ],
     relatedSlugs: ["aurora-brand-identity"]
   },
   {
@@ -287,6 +321,16 @@ export const services: Service[] = [
         description: { ar: "نتابع النتائج ونعدل الاستراتيجية باستمرار", en: "We track results and continuously refine the strategy" }
       }
     ],
+    tabs: [
+      {
+        label: { ar: "تصميم", en: "Design" },
+        src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+      },
+      {
+        label: { ar: "أداء", en: "Performance" },
+        src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+      }
+    ],
     relatedSlugs: ["pulse-social-media"]
   },
   {
@@ -345,6 +389,16 @@ export const services: Service[] = [
       {
         title: { ar: "التسليم", en: "Delivery" },
         description: { ar: "تسليم المنتج النهائي بجميع الصيغ المطلوبة", en: "Delivering the final product in all required formats" }
+      }
+    ],
+    tabs: [
+      {
+        label: { ar: "تصميم", en: "Design" },
+        src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+      },
+      {
+        label: { ar: "أداء", en: "Performance" },
+        src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
       }
     ],
     relatedSlugs: ["horizon-film-production"]

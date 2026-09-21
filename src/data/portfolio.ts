@@ -6,6 +6,7 @@ export interface Project {
   categorySlug: string;
   description: { ar: string; en: string };
   image: string;
+  thumbnail?: string;                    // Optional: separate card thumbnail, falls back to image
   tags: string[];
   featured: boolean;
   href: string;

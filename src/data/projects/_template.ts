@@ -31,7 +31,8 @@ const project: Project = {
   },
 
   // ── MEDIA ───────────────────────────────────────
-  image: "/images/portfolio/your-project/cover.jpg",   // Main cover image
+  image: "/images/portfolio/your-project/cover.jpg",       // Main cover image (case study hero)
+  thumbnail: "/images/portfolio/your-project/thumb.jpg",   // Card thumbnail (portfolio grid) — if not set, falls back to image
   gallery: [
     "/images/portfolio/your-project/1.jpg",
     "/images/portfolio/your-project/2.jpg",

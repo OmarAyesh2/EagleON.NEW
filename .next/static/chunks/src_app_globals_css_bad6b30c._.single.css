@@ -807,6 +807,10 @@ img, video {
   aspect-ratio: 1;
 }
 
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
 .size-4 {
   width: 1rem;
   height: 1rem;
@@ -3524,6 +3528,10 @@ html[dir="rtl"] body {
   .md\:border-x {
     border-left-width: 1px;
     border-right-width: 1px;
+  }
+
+  .md\:object-cover {
+    object-fit: cover;
   }
 
   .md\:p-10 {

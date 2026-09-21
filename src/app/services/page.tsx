@@ -27,7 +27,7 @@ export default function ServicesPage() {
       "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
       "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
       "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789921123/Untitled1_pibzyv.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790009566/Untitled4_kivnbl.png",
       "https://res.cloudinary.com/dzbsayerm/image/upload/v1789921123/Untitled1_pibzyv.png"
     ][index % 5]
   }));
@@ -253,7 +253,7 @@ export default function ServicesPage() {
                 onMouseEnter={() => setIsPaused(true)}
                 onMouseLeave={() => setIsPaused(false)}
               >
-                <div className="relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
+                <div className="relative aspect-video md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden">
                   <AnimatePresence
                     initial={false}
                     custom={direction}
@@ -276,11 +276,9 @@ export default function ServicesPage() {
                       <img
                         src={allServices[activeIndex].image}
                         alt={allServices[activeIndex].title[lang]}
-                        className="w-full h-full object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block"
+                        className="w-full h-full object-contain md:object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block"
                         loading="lazy"
                       />
-
-                      <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60" />
                     </motion.div>
                   </AnimatePresence>
 

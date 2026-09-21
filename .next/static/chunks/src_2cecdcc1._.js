@@ -1706,6 +1706,22 @@ const services = [
                 }
             }
         ],
+        tabs: [
+            {
+                label: {
+                    ar: "تصميم",
+                    en: "Design"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+            },
+            {
+                label: {
+                    ar: "أداء",
+                    en: "Performance"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+            }
+        ],
         relatedSlugs: [
             "nexus-tech-website"
         ]
@@ -1824,6 +1840,22 @@ const services = [
                     ar: "نجمع كل العناصر ونسلم المنتج النهائي",
                     en: "We composite all elements and deliver the final product"
                 }
+            }
+        ],
+        tabs: [
+            {
+                label: {
+                    ar: "تصميم",
+                    en: "Design"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+            },
+            {
+                label: {
+                    ar: "أداء",
+                    en: "Performance"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
             }
         ],
         relatedSlugs: [
@@ -1946,6 +1978,22 @@ const services = [
                 }
             }
         ],
+        tabs: [
+            {
+                label: {
+                    ar: "تصميم",
+                    en: "Design"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+            },
+            {
+                label: {
+                    ar: "أداء",
+                    en: "Performance"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+            }
+        ],
         relatedSlugs: [
             "aurora-brand-identity"
         ]
@@ -2056,6 +2104,22 @@ const services = [
                 }
             }
         ],
+        tabs: [
+            {
+                label: {
+                    ar: "تصميم",
+                    en: "Design"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+            },
+            {
+                label: {
+                    ar: "أداء",
+                    en: "Performance"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
+            }
+        ],
         relatedSlugs: [
             "pulse-social-media"
         ]
@@ -2164,6 +2228,22 @@ const services = [
                     ar: "تسليم المنتج النهائي بجميع الصيغ المطلوبة",
                     en: "Delivering the final product in all required formats"
                 }
+            }
+        ],
+        tabs: [
+            {
+                label: {
+                    ar: "تصميم",
+                    en: "Design"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/e1/e10c7175dec8e12ea3daa7204fd1cfba161d61aa3fda5387a022e7e258e3171f.png"
+            },
+            {
+                label: {
+                    ar: "أداء",
+                    en: "Performance"
+                },
+                src: "https://cdn.21st.dev/assets/mirror/61/6138ba1bccd2ae7cc89a81c656e36febe6fb4a3166232accf821861e8f8d86a1.jpg"
             }
         ],
         relatedSlugs: [
@@ -2592,7 +2672,7 @@ function Services() {
                                 onMouseEnter: ()=>setIsPaused(true),
                                 onMouseLeave: ()=>setIsPaused(false),
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative aspect-square md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden",
+                                    className: "relative aspect-video md:aspect-[4/3] lg:aspect-[16/11] rounded-3xl md:rounded-[2.5rem] overflow-hidden",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
                                             initial: false,
@@ -2619,7 +2699,7 @@ function Services() {
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                                     src: featuredServices[activeIndex].image,
                                                     alt: featuredServices[activeIndex].title[lang],
-                                                    className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block",
+                                                    className: "w-full h-full object-contain md:object-cover transition-transform duration-700 hover:scale-105 !m-0 !p-0 block",
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/sections/Services.tsx",
@@ -3474,7 +3554,7 @@ function Portfolio() {
                                         className: "relative w-full aspect-[16/10] overflow-hidden",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: project.image,
+                                                src: project.thumbnail || project.image,
                                                 alt: project.title[lang],
                                                 className: "w-full h-full object-cover transition-transform duration-500 group-hover:scale-105",
                                                 loading: "lazy"
