@@ -33,9 +33,11 @@ import auroraBrand from "./projects/aurora-brand-identity";
 import cyberCity from "./projects/cyber-city-cgi";
 import pulseSocial from "./projects/pulse-social-media";
 import horizonFilm from "./projects/horizon-film-production";
+import redeyeCgi from "./projects/redeye-cgi";
 
 // Add new projects here:
 export const portfolio: Project[] = [
+  redeyeCgi,
   nexusTech,
   auroraBrand,
   cyberCity,
