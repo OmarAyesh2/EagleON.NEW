@@ -28,19 +28,11 @@ export interface Project {
 }
 
 // Import all projects
-import nexusTech from "./projects/nexus-tech-website";
-import auroraBrand from "./projects/aurora-brand-identity";
-import cyberCity from "./projects/cyber-city-cgi";
-import pulseSocial from "./projects/pulse-social-media";
-import horizonFilm from "./projects/horizon-film-production";
 import redeyeCgi from "./projects/redeye-cgi";
+import lorenzoCgi from "./projects/lorenzo-cgi";
 
 // Add new projects here:
 export const portfolio: Project[] = [
   redeyeCgi,
-  nexusTech,
-  auroraBrand,
-  cyberCity,
-  pulseSocial,
-  horizonFilm,
+  lorenzoCgi,
 ];
