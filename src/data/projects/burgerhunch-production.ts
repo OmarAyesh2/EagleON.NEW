@@ -95,7 +95,7 @@ const project: Project = {
   platforms: ["Instagram", "Facebook", "TikTok", "SnapChat"],
 
   // ── AUTO-GENERATED (don't change) ───────────────
-  href: "/portfolio/burgerhunch-reels-production",
+  href: "/portfolio/burger-hunch-reels-production",
 };
 
 export default project;
