@@ -32,7 +32,8 @@ import redeyeCgi from "./projects/redeye-cgi";
 import lorenzoCgi from "./projects/lorenzo-cgi";
 import redeyeSocial from "./projects/redeye-social";
 import jilyaSocial from "./projects/jilya-social";
-import jilyaProduction from "./projects/jilya-production"
+import jilyaProduction from "./projects/jilya-production";
+import burgerhunchPrd from "./projects/burgerhunch-production"
 
 // Add new projects here:
 export const portfolio: Project[] = [
@@ -41,5 +42,6 @@ export const portfolio: Project[] = [
   redeyeSocial,
   jilyaSocial,
   jilyaProduction,
+  burgerhunchPrd,
 
 ];
