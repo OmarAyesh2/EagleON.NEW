@@ -20,8 +20,24 @@ const tajawal = Tajawal({
 });
 
 export const metadata: Metadata = {
-  title: "EagleOn Digital Solutions",
-  description: "EagleOn Digital Solutions Website",
+  metadataBase: new URL("https://eagleon.digital"),
+  title: {
+    default: "EagleOn Digital Solutions",
+    template: "%s | EagleOn Digital",
+  },
+  description: "Custom websites, full brand identity, social media management, and cinema grade CGI. A technical and creative studio based in Amman, Jordan.",
+  keywords: ["Web Development Jordan", "تصميم مواقع الأردن", "CGI Amman", "Brand Identity Jordan", "Digital Solutions Amman", "EagleOn Digital", "حلول رقمية عمّان"],
+  authors: [{ name: "EagleOn Digital Solutions" }],
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "ar_JO",
+    siteName: "EagleOn Digital Solutions",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default async function RootLayout({
@@ -37,6 +53,26 @@ export default async function RootLayout({
   return (
     <html lang={lang} dir={dir} className={`${poppins.variable} ${tajawal.variable}`}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "EagleOn Digital Solutions",
+              url: "https://eagleon.digital",
+              logo: "https://eagleon.digital/Logo.png",
+              email: "info@eagleon.digital",
+              telephone: ["+962793188188", "+962771299937"],
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Amman",
+                addressCountry: "JO",
+              },
+              sameAs: [],
+            }),
+          }}
+        />
         <LanguageProvider initialLang={lang}>
           <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[100] focus:p-4 focus:bg-brand-primary focus:text-brand-black skip-link">
             Skip to content

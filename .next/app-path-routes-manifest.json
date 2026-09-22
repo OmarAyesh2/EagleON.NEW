@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/contact/route": "/api/contact",
+  "/icon.png/route": "/icon.png",
+  "/robots.txt/route": "/robots.txt",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/opengraph-image.jpg/route": "/opengraph-image.jpg",
+  "/page": "/",
+  "/portfolio/[slug]/page": "/portfolio/[slug]",
+  "/services/[slug]/page": "/services/[slug]",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/pricing/page": "/pricing",
+  "/portfolio/page": "/portfolio",
+  "/qa/page": "/qa",
+  "/services/page": "/services"
+}
