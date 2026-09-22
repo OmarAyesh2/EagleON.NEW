@@ -95,7 +95,7 @@ export default function PortfolioPage() {
               >
                 <Link 
                   href={`/portfolio/${featuredProject.slug}`}
-                  className="group relative block rounded-2xl overflow-hidden border border-white/10 aspect-[16/9]"
+                  className="group relative block rounded-2xl overflow-hidden border border-white/10 aspect-[4/3] md:aspect-[16/9]"
                 >
                   <img 
                     src={featuredProject.thumbnail || featuredProject.image} 

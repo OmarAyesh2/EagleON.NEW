@@ -3678,6 +3678,10 @@ html[dir="rtl"] body {
     aspect-ratio: 4 / 3;
   }
 
+  .md\:aspect-\[16\/9\] {
+    aspect-ratio: 16 / 9;
+  }
+
   .md\:h-12 {
     height: 3rem;
   }
