@@ -17,8 +17,8 @@ export default function Hero() {
   // Rotating words — the services we offer
   const titles = useMemo(
     () => ({
-      en: ["Websites", "Brands", "Social Media", "Productions", "CGI"],
-      ar: ["مواقع إلكترونية", "علامات تجارية", "سوشيال ميديا", "إنتاج إبداعي", "تصميم ثلاثي الأبعاد"],
+      en: ["Websites", "Branding", "Visuals", "Production", "Marketing"],
+      ar: ["المواقع إلكترونية", "تصميم هوية", "تصاميم", "تسويق", "محتوى"],
     }),
     []
   );
@@ -46,7 +46,7 @@ export default function Hero() {
   };
 
   return (
-    <section 
+    <section
       ref={heroRef}
       onMouseMove={handleMouseMove}
       className="relative isolate w-full min-h-[100dvh] flex items-center justify-center overflow-hidden bg-black"
@@ -56,9 +56,9 @@ export default function Hero() {
 
       {/* 2. 3D Perspective Floor Grid */}
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden z-0 pointer-events-none opacity-40">
-        <div 
+        <div
           className="w-[200vw] h-[200vh] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[40%] origin-top bg-[linear-gradient(rgba(123,193,255,0.35)_1px,transparent_1px),linear-gradient(90deg,rgba(123,193,255,0.35)_1px,transparent_1px)] bg-[size:60px_60px] animate-grid-scroll"
-          style={{ 
+          style={{
             transform: 'perspective(500px) rotateX(60deg) translateY(-100px) translateZ(-200px)',
             maskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%)',
             WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%)'
@@ -68,9 +68,9 @@ export default function Hero() {
 
       {/* 3. Ceiling Grid (Mirrored) */}
       <div className="absolute inset-0 flex items-center justify-center overflow-hidden z-0 pointer-events-none opacity-20">
-         <div 
+        <div
           className="w-[200vw] h-[200vh] absolute bottom-1/2 left-1/2 -translate-x-1/2 translate-y-[40%] origin-bottom bg-[linear-gradient(rgba(123,193,255,0.2)_1px,transparent_1px),linear-gradient(90deg,rgba(123,193,255,0.2)_1px,transparent_1px)] bg-[size:60px_60px] animate-grid-scroll-reverse"
-          style={{ 
+          style={{
             transform: 'perspective(500px) rotateX(-60deg) translateY(100px) translateZ(-200px)',
             maskImage: 'linear-gradient(to top, transparent 0%, black 20%, black 80%, transparent 100%)',
             WebkitMaskImage: 'linear-gradient(to top, transparent 0%, black 20%, black 80%, transparent 100%)'
@@ -79,7 +79,7 @@ export default function Hero() {
       </div>
 
       {/* 4. Interactive Mouse Spotlight */}
-      <div 
+      <div
         className="absolute inset-0 z-1 pointer-events-none"
         style={{
           background: `radial-gradient(800px circle at ${mousePos.x}px ${mousePos.y}px, rgba(123, 193, 255, 0.1), transparent 40%)`
@@ -96,7 +96,7 @@ export default function Hero() {
       {/* 6. Scanline Overlay */}
       <div className="absolute inset-0 z-10 pointer-events-none bg-[linear-gradient(to_bottom,rgba(255,255,255,0),rgba(255,255,255,0)_50%,rgba(0,0,0,0.2)_50%,rgba(0,0,0,0.2))] bg-[size:100%_4px] opacity-10" />
       <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-b from-transparent via-[#7BC1FF]/5 to-transparent h-[100px] w-full animate-scanline opacity-20" />
-      
+
       {/* 7. Decorative corner elements */}
       <div className="absolute top-24 left-6 w-32 h-32 border-l border-t border-white/10 rounded-tl-3xl pointer-events-none" />
       <div className="absolute bottom-6 right-6 w-32 h-32 border-r border-b border-white/10 rounded-br-3xl pointer-events-none" />
@@ -108,7 +108,7 @@ export default function Hero() {
           <div className="flex gap-4 flex-col">
             <h1 className="text-4xl md:text-6xl lg:text-8xl max-w-5xl tracking-tighter text-center font-black leading-tight md:leading-[1.1] px-4 md:px-0">
               <span>
-                {lang === "ar" ? "نبني تجارب رقمية تصنع" : "We Build Digital Experiences That Drive"}
+                {lang === "ar" ? "مشروعك يستحق أفضل" : "Your Business Deserves Better"}
               </span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1 min-h-[1.5em] items-center">
                 <AnimatePresence mode="wait">
@@ -136,7 +136,7 @@ export default function Hero() {
           {/* CTA buttons */}
           <div className="flex flex-row gap-3">
             <Link href="/contact">
-              <LiquidMetalButton 
+              <LiquidMetalButton
                 label={
                   <div className="flex items-center gap-3">
                     {lang === "ar" ? "ابدأ مشروعك" : "Start Your Project"}
