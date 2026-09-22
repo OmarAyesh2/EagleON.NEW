@@ -23,9 +23,9 @@ export default function Services() {
     ...service,
     numId: `0${index + 1}`,
     image: [
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png"
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072346/dev_htsqpv.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/3d_ystg2u.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/branding_fezukc.png"
     ][index % 3]
   }));
 

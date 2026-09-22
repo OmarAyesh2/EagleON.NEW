@@ -24,11 +24,11 @@ export default function ServicesPage() {
     ...service,
     numId: `0${index + 1}`,
     image: [
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789819963/Untitled_pao1la.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915086/3d_xosoow.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789915851/Untitled2-01_ocistw.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790009566/Untitled4_kivnbl.png",
-      "https://res.cloudinary.com/dzbsayerm/image/upload/v1789921123/Untitled1_pibzyv.png"
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072346/dev_htsqpv.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/3d_ystg2u.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/branding_fezukc.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/socialmedia_jv6na9.png",
+      "https://res.cloudinary.com/dzbsayerm/image/upload/v1790072345/production_cmdc4x.png"
     ][index % 5]
   }));
 
