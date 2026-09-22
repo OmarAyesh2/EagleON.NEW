@@ -5,7 +5,7 @@ const project: Project = {
   id: "redeye-cgi",
   slug: "redeye-cgi-commercials",         // URL: /portfolio/your-project-slug
   year: "2024",
-  featured: true,                     // Show on homepage?
+  featured: false,                     // Show on homepage?
 
   // ── TITLES & DESCRIPTIONS ──────────────────────
   title: {

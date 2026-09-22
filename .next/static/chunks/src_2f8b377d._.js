@@ -11,7 +11,7 @@ const project = {
     id: "redeye-cgi",
     slug: "redeye-cgi-commercials",
     year: "2024",
-    featured: true,
+    featured: false,
     // ── TITLES & DESCRIPTIONS ──────────────────────
     title: {
         ar: "إعلانات CGI تجارية — Redeye",
