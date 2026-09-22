@@ -3,6 +3,7 @@
   "/page": "app/page.js",
   "/portfolio/[slug]/page": "app/portfolio/[slug]/page.js",
   "/portfolio/page": "app/portfolio/page.js",
+  "/qa/page": "app/qa/page.js",
   "/services/[slug]/page": "app/services/[slug]/page.js",
   "/services/page": "app/services/page.js"
 }

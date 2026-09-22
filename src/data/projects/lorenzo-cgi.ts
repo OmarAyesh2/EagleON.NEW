@@ -41,7 +41,7 @@ const project: Project = {
   ],
 
   // ── TAGS & TOOLS ────────────────────────────────
-  tags: ["CGI", "3D Animation", "Coffee House"],      // Shown on portfolio card
+  tags: ["CGI", "3D Animation", "Restaurant"],      // Shown on portfolio card
   tools: ["Blender 3D", "DaVinci Resolve"],          // Shown on case study page
 
   // ── DELIVERABLES ────────────────────────────────
