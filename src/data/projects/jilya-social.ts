@@ -2,15 +2,15 @@ import { Project } from "../portfolio";
 
 const project: Project = {
   // ── BASIC INFO ──────────────────────────────────
-  id: "jalya-social",
-  slug: "jalya-social-media",         // URL: /portfolio/your-project-slug
+  id: "jilya-social",
+  slug: "jilya-social-media",         // URL: /portfolio/your-project-slug
   year: "2025",
   featured: false,                     // Show on homepage?
 
   // ── TITLES & DESCRIPTIONS ──────────────────────
   title: {
-    ar: "تصاميم سوشال ميديا — مطعم جليا (الرياض)",
-    en: "Jalya Restaurant Social Media Campaign",
+    ar: "تصاميم سوشال ميديا — مطعم جيليا (الرياض)",
+    en: "Jilya Restaurant Social Media Campaign",
   },
   category: {
     ar: "سوشال ميديا وتصميم إعلاني",
@@ -22,8 +22,8 @@ const project: Project = {
     en: "Social media post design and art direction for Jalya Restaurant in Riyadh, spotlighting authentic Jordanian and Palestinian cuisine, breakfast staples, and pastries with engaging visual appetite appeal.",
   },
   client: {
-    ar: "مطعم جليا (الرياض)",
-    en: "Jalya Restaurant (Riyadh)",
+    ar: "مطعم جيليا (الرياض)",
+    en: "Jilya Restaurant (Riyadh)",
   },
   duration: {
     ar: "أسبوعان",
@@ -58,8 +58,8 @@ const project: Project = {
 
   // ── CASE STUDY STORY ────────────────────────────
   challenge: {
-    ar: "يقدم مطعم جليا مأكولات أردنية وفلسطينية أصيلة في سوق الرياض عالي التنافسية، وكان التحدي كسر جمود صور الأكل التقليدية، وصناعة محتوى تفاعلي يثير نوستالجيا الزبائن وشهيتهم ويدفعهم للتعليق وزيارة الفرع بحي الورود.",
-    en: "Jalya serves authentic Jordanian and Palestinian cuisine in Riyadh's competitive dining market. The challenge was breaking away from static food photos and creating interactive, appetizing content that sparks nostalgia, drives comments, and boosts foot traffic to their branch.",
+    ar: "يقدم مطعم جيليا مأكولات أردنية وفلسطينية أصيلة في سوق الرياض عالي التنافسية، وكان التحدي كسر جمود صور الأكل التقليدية، وصناعة محتوى تفاعلي يثير نوستالجيا الزبائن وشهيتهم ويدفعهم للتعليق وزيارة الفرع بحي الورود.",
+    en: "Jilya serves authentic Jordanian and Palestinian cuisine in Riyadh's competitive dining market. The challenge was breaking away from static food photos and creating interactive, appetizing content that sparks nostalgia, drives comments, and boosts foot traffic to their branch.",
   },
   solution: {
     ar: "صممنا سلسلة منشورات تعتمد على التفاعل المباشر وعبارات دارجة ('مع شطة ولا بدون'، 'نكهة توخذك لأيام الطيبين')، مع معالجة بصرية تبرز تفاصيل الطبق واستخدام خامات ورقية وخشبية دافئة تعكس طابع المطبخ التراثي، مع إبراز موقع المطعم في كل منشور.",
@@ -97,7 +97,7 @@ const project: Project = {
   platforms: ["Instagram", "Facebook"],
 
   // ── AUTO-GENERATED (don't change) ───────────────
-  href: "/portfolio/jalya-social-media",
+  href: "/portfolio/jilya-social-media",
 };
 
 export default project;

@@ -31,13 +31,15 @@ export interface Project {
 import redeyeCgi from "./projects/redeye-cgi";
 import lorenzoCgi from "./projects/lorenzo-cgi";
 import redeyeSocial from "./projects/redeye-social";
-import jalyaSocial from "./projects/jalya-social";
+import jilyaSocial from "./projects/jilya-social";
+import jilyaProduction from "./projects/jilya-production"
 
 // Add new projects here:
 export const portfolio: Project[] = [
   redeyeCgi,
   lorenzoCgi,
   redeyeSocial,
-  jalyaSocial,
+  jilyaSocial,
+  jilyaProduction,
 
 ];

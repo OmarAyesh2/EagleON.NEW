@@ -175,7 +175,7 @@ const project = {
     tags: [
         "CGI",
         "3D Animation",
-        "Coffee House"
+        "Restaurant"
     ],
     tools: [
         "Blender 3D",
@@ -408,13 +408,20 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$cgi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/redeye-cgi.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$lorenzo$2d$cgi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/lorenzo-cgi.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$social$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/redeye-social.ts [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module './projects/jalya-social'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+;
 ;
 ;
 ;
 const portfolio = [
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$cgi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$lorenzo$2d$cgi$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
-    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$social$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$social$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
+    jalyaSocial
 ];
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);

@@ -388,6 +388,276 @@ const project = {
 };
 const __TURBOPACK__default__export__ = project;
 }),
+"[project]/src/data/projects/jilya-social.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+const project = {
+    // ── BASIC INFO ──────────────────────────────────
+    id: "jilya-social",
+    slug: "jilya-social-media",
+    year: "2025",
+    featured: false,
+    // ── TITLES & DESCRIPTIONS ──────────────────────
+    title: {
+        ar: "تصاميم سوشال ميديا — مطعم جيليا (الرياض)",
+        en: "Jilya Restaurant Social Media Campaign"
+    },
+    category: {
+        ar: "سوشال ميديا وتصميم إعلاني",
+        en: "Social Media & Advertising"
+    },
+    categorySlug: "social",
+    description: {
+        ar: "تصميم وإخراج بوستات إعلانية وتفاعلية لمطعم جليا في الرياض (حي الورود)، تركز على الأطباق الأردنية والفلسطينية الأصيلة والمعجنات بأسلوب بصري يجمع بين عبق التراث وشهية التقديم العصري لرفع تفاعل الصفحة.",
+        en: "Social media post design and art direction for Jalya Restaurant in Riyadh, spotlighting authentic Jordanian and Palestinian cuisine, breakfast staples, and pastries with engaging visual appetite appeal."
+    },
+    client: {
+        ar: "مطعم جيليا (الرياض)",
+        en: "Jilya Restaurant (Riyadh)"
+    },
+    duration: {
+        ar: "أسبوعان",
+        en: "Two Weeks"
+    },
+    // ── MEDIA ───────────────────────────────────────
+    image: "https://res.cloudinary.com/dzbsayerm/image/upload/v1786034412/dfg-03_dqk1cf.png",
+    thumbnail: "https://res.cloudinary.com/dzbsayerm/image/upload/v1786034412/dfg-03_dqk1cf.png",
+    gallery: [
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790074946/social-media-post1_kolre3.png",
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790074947/social-media-post8_rbojup.png",
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790074947/social-media-post3_i1a4k8.png",
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790074948/social-media-post7_gpeqcw.png",
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790074953/social-media-post5_aaxlm7.png",
+        "https://res.cloudinary.com/dzbsayerm/image/upload/v1790075371/1111_a1ege8.png"
+    ],
+    // ── TAGS & TOOLS ────────────────────────────────
+    tags: [
+        "Social Media",
+        "Food Design",
+        "Branding",
+        "Advertising"
+    ],
+    tools: [
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+    ],
+    // ── DELIVERABLES ────────────────────────────────
+    deliverables: [
+        {
+            ar: "تصميم بوستات تفاعلية وترويجية للأطباق (Social Media Posts)",
+            en: "Promotional & Engagement Posts"
+        },
+        {
+            ar: "معالجة وتفريغ صور الأطعمة والمأكولات (Food Manipulation)",
+            en: "Food Photo Manipulation & Retouching"
+        },
+        {
+            ar: "صياغة عبارات إعلانية وتسويقية مخصصة (Ad Copywriting)",
+            en: "Creative Ad Copy & Hooks"
+        },
+        {
+            ar: "تثبيت الهوية البصرية وعناصر البراند في الرياض",
+            en: "Brand & Location Consistency"
+        }
+    ],
+    // ── CASE STUDY STORY ────────────────────────────
+    challenge: {
+        ar: "يقدم مطعم جيليا مأكولات أردنية وفلسطينية أصيلة في سوق الرياض عالي التنافسية، وكان التحدي كسر جمود صور الأكل التقليدية، وصناعة محتوى تفاعلي يثير نوستالجيا الزبائن وشهيتهم ويدفعهم للتعليق وزيارة الفرع بحي الورود.",
+        en: "Jilya serves authentic Jordanian and Palestinian cuisine in Riyadh's competitive dining market. The challenge was breaking away from static food photos and creating interactive, appetizing content that sparks nostalgia, drives comments, and boosts foot traffic to their branch."
+    },
+    solution: {
+        ar: "صممنا سلسلة منشورات تعتمد على التفاعل المباشر وعبارات دارجة ('مع شطة ولا بدون'، 'نكهة توخذك لأيام الطيبين')، مع معالجة بصرية تبرز تفاصيل الطبق واستخدام خامات ورقية وخشبية دافئة تعكس طابع المطبخ التراثي، مع إبراز موقع المطعم في كل منشور.",
+        en: "We developed an engaging social post series leveraging conversational hooks and cultural references, paired with appetizing food retouching and warm textured backgrounds that highlight authentic culinary craft, while consistently driving location awareness in Riyadh."
+    },
+    // ── RESULTS ─────────────────────────────────────
+    results: [
+        {
+            metric: "+135%",
+            label: {
+                ar: "نمو التعليقات والمشاركات التفاعلية",
+                en: "Comments & Shares Growth"
+            }
+        },
+        {
+            metric: "+40%",
+            label: {
+                ar: "زيادة في الزيارات والطلبات المباشرة",
+                en: "Direct Orders & Dine-in Inquiries"
+            }
+        },
+        {
+            metric: "+85%",
+            label: {
+                ar: "توسع نطاق الوصول المحلي داخل الرياض",
+                en: "Local Riyadh Reach"
+            }
+        }
+    ],
+    // ── TESTIMONIAL (optional) ──────────────────────
+    // testimonial: {
+    //   quote: { ar: "شهادة العميل بالعربي", en: "Client testimonial in English" },
+    //  author: "Client Name",
+    // role: { ar: "المنصب", en: "Job Title" },
+    //},
+    // ── CATEGORY-SPECIFIC (use only what applies) ───
+    // For "web":
+    // liveUrl: "https://example.com",
+    // For "branding":
+    // colors: ["#1E232A", "#D4AF37", "#F8F5F0"],
+    // typography: [
+    //   { ar: "الخط العربي", en: "English Font" },
+    // ],
+    // For "cgi" or "production":
+    // videoUrl: "https://res.cloudinary.com/.../video.mp4",
+    // For "social":
+    platforms: [
+        "Instagram",
+        "Facebook"
+    ],
+    // ── AUTO-GENERATED (don't change) ───────────────
+    href: "/portfolio/jilya-social-media"
+};
+const __TURBOPACK__default__export__ = project;
+}),
+"[project]/src/data/projects/jilya-production.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>__TURBOPACK__default__export__
+]);
+const project = {
+    // ── BASIC INFO ──────────────────────────────────
+    id: "jilya-production",
+    slug: "jilya-reels-production",
+    year: "2025",
+    featured: false,
+    // ── TITLES & DESCRIPTIONS ──────────────────────
+    title: {
+        ar: "إنتاج ومونتاج ريلز — مطعم جيليا (الرياض)",
+        en: "Reels Production & Editing — Jilya Restaurant"
+    },
+    category: {
+        ar: "إنتاج فيديو ومونتاج (Production)",
+        en: "Video Production & Editing"
+    },
+    categorySlug: "production",
+    description: {
+        ar: "مونتاج ومعالجة بصرية لسلسلة فيديوهات ريلز قصيرة لمطعم جيليا في الرياض، تركز على إبراز تفاصيل تحضير الأطباق التراثية برتم سريع وتلوين سينمائي يرفع تفاعل ومشاركات الإنستغرام وتيك توك.",
+        en: "Video editing and post-production for a series of promotional short-form Reels for Jilya Restaurant in Riyadh, designed with dynamic pacing, sound design, and appetizing color grading to maximize viral reach."
+    },
+    client: {
+        ar: "مطعم جيليا (الرياض)",
+        en: "Jilya Restaurant (Riyadh)"
+    },
+    duration: {
+        ar: "أسبوعان",
+        en: "Two Weeks"
+    },
+    // ── MEDIA ───────────────────────────────────────
+    image: "https://res.cloudinary.com/dzbsayerm/image/upload/v1786034412/dfg-03_dqk1cf.png",
+    thumbnail: "https://res.cloudinary.com/dzbsayerm/image/upload/v1786034412/dfg-03_dqk1cf.png",
+    gallery: [
+        "https://res.cloudinary.com/dzbsayerm/video/upload/v1790077836/%D8%AC%D9%84%D9%8A%D8%A7_1_emoatr.mp4",
+        "https://res.cloudinary.com/dzbsayerm/video/upload/v1790077835/%D8%AC%D9%84%D9%8A%D8%A7_5_syutbd.mp4",
+        "https://res.cloudinary.com/dzbsayerm/video/upload/v1790077831/%D8%AC%D9%84%D9%8A%D8%A7_4_pjkppv.mp4",
+        "https://res.cloudinary.com/dzbsayerm/video/upload/v1790077823/%D8%AC%D9%84%D9%8A%D8%A7_3_sswjeu.mp4"
+    ],
+    // ── TAGS & TOOLS ────────────────────────────────
+    tags: [
+        "Video Editing",
+        "Reels",
+        "Food Production",
+        "Color Grading"
+    ],
+    tools: [
+        "DaVinci Resolve",
+        "Adobe Premiere Pro"
+    ],
+    // ── DELIVERABLES ────────────────────────────────
+    deliverables: [
+        {
+            ar: "مونتاج ريلز وإعلانات فيديو قصيرة (Reels / TikTok)",
+            en: "Short-Form Reels & TikTok Editing"
+        },
+        {
+            ar: "تلوين وتصحيح ألوان سينمائي للأطعمة (Color Grading)",
+            en: "Food Cinematography & Color Grading"
+        },
+        {
+            ar: "تصميم وهندسة مؤثرات صوتية (Sound Design & SFX)",
+            en: "Sound Design & Audio Mixing"
+        },
+        {
+            ar: "إضافة نصوص متحركة وخطافات بصرية (Motion Hooks)",
+            en: "Motion Graphics & Visual Hooks"
+        }
+    ],
+    // ── CASE STUDY STORY ────────────────────────────
+    challenge: {
+        ar: "تعتمد خوارزميات ريلز وتيك توك في قطاع المطاعم بالرياض على شد انتباه المشاهد في أول ثانيتين، وكان التحدي تحويل لقطات تحضير المأكولات التراثية إلى محتوى ديناميكي سريع يمنع التخطي (Scroll-stopping) ويبرز تفاصيل الأكل وقرمشته بأسلوب يثير الشهية فوراً.",
+        en: "Short-form video algorithms in Riyadh demand immediate attention within the first two seconds. The challenge was turning traditional food prep footage into fast-paced, scroll-stopping Reels with high appetite appeal, avoiding monotonous pacing."
+    },
+    solution: {
+        ar: "اعتمدنا أسلوب تقطيع حركي سريع مع مؤثرات صوتية دقيقة ومسموعة لتفاصيل الأكل (ASMR & Sound Design)، وتصحيح ألوان ركز على تشبع ودفء المكونات الطازجة، مع إضافة خطافات بصرية ونصوص حركية تشجع المشاهد على استكمال الفيديو ومشاركته.",
+        en: "We applied rapid-cut editing paired with tactile food sound design (ASMR), warm color grading to emphasize fresh ingredient textures, and kinetic text hooks that maximized video completion and shareability across Instagram and TikTok."
+    },
+    // ── RESULTS ─────────────────────────────────────
+    results: [
+        {
+            metric: "+80%",
+            label: {
+                ar: "معدل استكمال المشاهدة (Watch Completion)",
+                en: "Video Completion Rate"
+            }
+        },
+        {
+            metric: "+250%",
+            label: {
+                ar: "نمو المشاهدات والوصول الطبيعي (Organic Views)",
+                en: "Organic Views & Reach Growth"
+            }
+        },
+        {
+            metric: "+120%",
+            label: {
+                ar: "زيادة الحفظ والمشاركات (Shares & Saves)",
+                en: "Shares & Saves Increase"
+            }
+        }
+    ],
+    // ── TESTIMONIAL (optional) ──────────────────────
+    // testimonial: {
+    //   quote: { ar: "شهادة العميل بالعربي", en: "Client testimonial in English" },
+    //  author: "Client Name",
+    // role: { ar: "المنصب", en: "Job Title" },
+    //},
+    // ── CATEGORY-SPECIFIC (use only what applies) ───
+    // For "web":
+    // liveUrl: "https://example.com",
+    // For "branding":
+    // colors: ["#1E232A", "#D4AF37", "#F8F5F0"],
+    // typography: [
+    //   { ar: "الخط العربي", en: "English Font" },
+    // ],
+    // For "cgi" or "production":
+    // videoUrl: "https://res.cloudinary.com/.../video.mp4",
+    // For "social":
+    platforms: [
+        "Instagram",
+        "Facebook",
+        "TikTok",
+        "SnapChat"
+    ],
+    // ── AUTO-GENERATED (don't change) ───────────────
+    href: "/portfolio/jilya-reels-production"
+};
+const __TURBOPACK__default__export__ = project;
+}),
 "[project]/src/data/portfolio.ts [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -399,11 +669,9 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$cgi$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/redeye-cgi.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$lorenzo$2d$cgi$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/lorenzo-cgi.ts [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$social$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/redeye-social.ts [app-ssr] (ecmascript)");
-(()=>{
-    const e = new Error("Cannot find module './projects/jalya-social'");
-    e.code = 'MODULE_NOT_FOUND';
-    throw e;
-})();
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$jilya$2d$social$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/jilya-social.ts [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$jilya$2d$production$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/projects/jilya-production.ts [app-ssr] (ecmascript)");
+;
 ;
 ;
 ;
@@ -412,7 +680,8 @@ const portfolio = [
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$cgi$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$lorenzo$2d$cgi$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$redeye$2d$social$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
-    jalyaSocial
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$jilya$2d$social$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
+    __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$projects$2f$jilya$2d$production$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"]
 ];
 }),
 "[project]/src/app/portfolio/[slug]/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -1574,4 +1843,4 @@ function PortfolioCaseStudy() {
 }),
 ];
 
-//# sourceMappingURL=src_5f8cdbb9._.js.map
+//# sourceMappingURL=src_f16653e1._.js.map
